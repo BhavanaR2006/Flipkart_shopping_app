@@ -45,6 +45,6 @@ Button(root,text="Customer Login",width=30,command=open_customer).pack(pady=5)
 
 Button(root,text="Orders Tracking",width=30,command=open_orders).pack(pady=5)
 
-Button(root,text="Exit",width=30,bg="red",fg="white",command=root.destroy).pack(pady=20)
+Button(root,text="Exit",width=30,bg="blue",fg="white",command=root.destroy).pack(pady=20)
 
 root.mainloop()
