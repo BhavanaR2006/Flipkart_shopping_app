@@ -18,7 +18,7 @@ def track_order():
 root = tk.Tk()
 root.title("Order Tracking")
 root.geometry("500x400")
-root.configure(bg="white")
+root.configure(bg="black")
 
 tk.Label(
     root,
