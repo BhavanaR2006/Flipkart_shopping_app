@@ -15,4 +15,6 @@ spec:
       containers:
         - name: flipkart-container
           image: anishaflipkart27/flipkart_shopping_app:latest
-          imagePullPolicy: Never
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 6080
